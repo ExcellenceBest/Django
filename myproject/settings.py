@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'myapp.apps.MyappConfig',
     'newapp.apps.NewappConfig',
     'company.apps.CompanyConfig',
+    'myCity.apps.MycityConfig'
 ]
 
 MIDDLEWARE = [
