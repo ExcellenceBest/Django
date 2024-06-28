@@ -31,3 +31,23 @@ def contacts(request):
     return HttpResponse(
         """<h1 style="background-color:yellow">Контакты компании!</h1>
                         """)
+
+
+def branches(request):
+    return HttpResponse(
+     """<h1> Филиалы компании!</h1>""")
+
+
+def london(request):
+    return HttpResponse(
+        """<h1> Филиал в Лондоне!</h1>""")
+
+
+def paris(request):
+    return HttpResponse(
+        """<h1> Филиал в Париже!</h1>""")
+
+
+def moscow(request):
+    return HttpResponse(
+        """<h1> Филиал в Москве!</h1>""")

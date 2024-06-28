@@ -37,5 +37,10 @@ urlpatterns = [
     re_path('company/about', company.views.about),
     re_path('company/contacts', company.views.contacts),
     re_path(r'^company/news', company.views.news),
+    path('company/branches', company.views.branches),
+    path('company/branches/london', company.views.london),
+    path('company/branches/paris', company.views.paris),
+    path('company/branches/moscow', company.views.moscow),
+    re_path(r'company/branches', company.views.branches),
 
 ]
